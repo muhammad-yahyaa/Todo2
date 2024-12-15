@@ -31,7 +31,7 @@ function addtodo(todo){
     var cont =  document.createElement("div")
     cont.setAttribute("class","cont-div w-3/4 flex text-center p-2 ms-1/4 z-10 ")
      cont.innerHTML =`
-     <h3 for ="${input}" class="inline grow text-2xl text-white z-10">${input.value}</h3>
+     <h3  class="inline grow text-2xl text-white z-10">${todo}</h3>
      <button type="button" onclick="dlt(event)" class="text-red-600 grow-0 z-10">DELETE</button>
      `
      todolist.appendChild(cont)
