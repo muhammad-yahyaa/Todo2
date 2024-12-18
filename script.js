@@ -32,7 +32,7 @@ function addtodo(todo){
     cont.setAttribute("class","cont-div w-3/4 flex text-center p-2 ms-1/4 z-10 ")
      cont.innerHTML =`
      <h3  class="inline grow text-2xl text-white z-10">${todo}</h3>
-     <button type="button" onclick="dlt(event)" class="text-red-600 grow-0 z-10">DELETE</button>
+     <button type="button" onclick="dlt(event)" class="text-red-600 grow-0 z-10 font-extrabold">DELETE</button>
      `
      todolist.appendChild(cont)
      localStorage.setItem('todos',JSON.stringify(todos))
